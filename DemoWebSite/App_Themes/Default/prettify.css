@@ -1,0 +1,27 @@
+pre 
+{
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.str { color: #8b0000; }
+.kwd { color: #0000ff; }
+.com { color: #008000; }
+.typ { color: #008b8b; }
+.lit { color: #8b0000; }
+.pun { color: #666600; }
+.pln { color: #000000; }
+.tag { color: #000080; }
+.atn { color: #660066; }
+.atv { color: #008800; }
+.dec { color: #660066; }
+
+.prettyprint
+ {
+	apadding: 5px; 
+	aborder: 1px solid #ddd; 
+    background-color: #f9f9f9;
+ }
